@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @attendant.name %>
+</p>
+
+<p>
+  <strong>Lastname:</strong>
+  <%= @attendant.lastname %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @attendant.age %>
+</p>
+
+<p>
+  <strong>Gender:</strong>
+  <%= @attendant.gender %>
+</p>
+
+<p>
+  <strong>Circle:</strong>
+  <%= @attendant.circle %>
+</p>
+
+<p>
+  <strong>Wristband:</strong>
+  <%= @attendant.wristband_id %>
+</p>
+
+<p>
+  <strong>Area:</strong>
+  <%= @attendant.area %>
+</p>
+
+<%= link_to 'Edit', edit_attendant_path(@attendant) %> |
+<%= link_to 'Back', attendants_path %>

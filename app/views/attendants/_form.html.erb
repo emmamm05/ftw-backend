@@ -1,0 +1,45 @@
+<%= form_for(@attendant) do |f| %>
+  <% if @attendant.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@attendant.errors.count, "error") %> prohibited this attendant from being saved:</h2>
+
+      <ul>
+      <% @attendant.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :name %><br>
+    <%= f.text_field :name %>
+  </div>
+  <div class="field">
+    <%= f.label :lastname %><br>
+    <%= f.text_field :lastname %>
+  </div>
+  <div class="field">
+    <%= f.label :age %><br>
+    <%= f.number_field :age %>
+  </div>
+  <div class="field">
+    <%= f.label :gender %><br>
+    <%= f.text_field :gender %>
+  </div>
+  <div class="field">
+    <%= f.label :circle_id %><br>
+    <%= f.text_field :circle_id %>
+  </div>
+  <div class="field">
+    <%= f.label :wristband_id %><br>
+    <%= f.number_field :wristband_id %>
+  </div>
+  <div class="field">
+    <%= f.label :area %><br>
+    <%= f.text_field :area %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

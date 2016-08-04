@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Attendants</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Name</th>
+      <th>Lastname</th>
+      <th>Age</th>
+      <th>Gender</th>
+      <th>Circle</th>
+      <th>Wristband</th>
+      <th>Area</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @attendants.each do |attendant| %>
+      <tr>
+        <td><%= attendant.name %></td>
+        <td><%= attendant.lastname %></td>
+        <td><%= attendant.age %></td>
+        <td><%= attendant.gender %></td>
+        <td><%= attendant.circle %></td>
+        <td><%= attendant.wristband_id %></td>
+        <td><%= attendant.area %></td>
+        <td><%= link_to 'Show', attendant %></td>
+        <td><%= link_to 'Edit', edit_attendant_path(attendant) %></td>
+        <td><%= link_to 'Destroy', attendant, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Attendant', new_attendant_path %>
