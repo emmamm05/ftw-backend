@@ -52,3 +52,5 @@ gem 'turbolinks'
 gem 'coffee-rails', '~> 4.1.0'
 
 gem 'twitter-bootstrap-rails'
+
+gem 'devise-bootstrap-views'

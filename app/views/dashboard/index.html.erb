@@ -1,0 +1,71 @@
+<div class="container" >
+  <div class="row" >
+
+    <div class="col-md-3">
+      <div class="well sidebar-nav sidebar-dark">
+        <h3>Sidebar</h3>
+        <ul class="nav nav-list">
+          <li class="nav-header">Sidebar</li>
+          <div class="input-group input-group-lg sidebar-dark">
+              <span class="input-group-addon sidebar-dark alignleft">
+                <div class="row sidebar-item">
+                  <input type="checkbox" aria-label="..."> All teams
+                </div>
+                <div class="row sidebar-item">
+                  <div class="col-md-1"></div> <input type="checkbox" aria-label="..."> Team 2
+                </div>
+                <div class="row sidebar-item">
+                  <div class="col-md-1"></div> <input type="checkbox" aria-label="..."> Team 3
+                </div>
+              </span>
+          </div>
+        </ul>
+      </div><!--/.well -->
+    </div><!--/span-->
+
+    <div class="col-md-9" >
+      <div class="container">
+
+
+        <div class="row" style="margin-top: 20px" >
+          <%= bootstrap_flash class: 'tiny-flash' %>
+        </div>
+
+        <div class="row" style="margin: 50px" >
+
+          Minimap here!
+
+        </div>
+
+        <div class="row" >
+          <div class="dashboard-custom" style="padding: 40px;">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-3 " >
+                  <span style="font-size: 18px"> Sleep Analysis </span>
+                  <br>
+                  <span> description </span>
+                </div>
+                <div class="col-md-3" >
+                  <span style="font-weight: bold"> Lapso del sueño <br> más largo:</span>
+                  <span> 00:00:00 </span>
+                </div>
+                <div class="col-md-3" >
+                  <div>
+                    <span style="font-weight: bold"> Total de horas <br> dormidas:</span>
+                    <span> 00:00:00 </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div id="sleep-analysis" class="dashboard-custom"></div>
+
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
