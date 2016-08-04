@@ -274,4 +274,6 @@ Devise.setup do |config|
 
   config.scoped_views = true
 
+  config.secret_key = 'fd2db7686ae8e137243040c8f4f25389cf4344fb64c4dd059a94070023554fbe7f68ca08780f97eabb5c48a7725de83fa8ab95edd4c2241d6a78da2060ff7a89'
+
 end
