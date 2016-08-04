@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   resources :circles
   resources :attendants
   resources :dashboard
+  get  'about' => 'about#index'
 
   devise_for :users, controllers: { sessions: 'users/sessions' }
 
