@@ -40,3 +40,15 @@ end
 gem 'pg'
 gem 'devise'
 gem 'jquery-rails'
+
+gem "font-awesome-rails"
+
+gem 'bootstrap-sass', '~> 3.3.6'
+
+# Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
+gem 'turbolinks'
+
+# Use CoffeeScript for .coffee assets and views
+gem 'coffee-rails', '~> 4.1.0'
+
+gem 'twitter-bootstrap-rails'

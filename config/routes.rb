@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :circles
   resources :attendants
   resources :circles
 

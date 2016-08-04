@@ -2,11 +2,326 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7de6c4a2-8bb1-47fa-8674-fca283c165c8" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/colorpicker/img/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/colorpicker/img/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/colorpicker/img/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/colorpicker/img/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/colorpicker/img/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/Sorting icons.psd" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/sort_asc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/sort_asc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/sort_both.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/sort_desc.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/images/sort_desc_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/aero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/aero@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/blue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/blue@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/flat@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/green.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/green@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/grey.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/grey@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/orange.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/orange@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/pink.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/pink@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/purple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/purple@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/red.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/red@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/yellow.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/yellow@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/fonts/FontAwesome.otf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/fonts/fontawesome-webfont.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/fonts/fontawesome-webfont.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/fonts/fontawesome-webfont.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/fonts/fontawesome-webfont.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/glyphicons-halflings-regular.woff2" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/american-express.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/back_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/back_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/back_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/bootstrap-colorpicker/alpha-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/bootstrap-colorpicker/alpha.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/bootstrap-colorpicker/hue-horizontal.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/bootstrap-colorpicker/hue.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/bootstrap-colorpicker/saturation.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/data.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/favicon.ico" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/forward_disabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/forward_enabled.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/forward_enabled_hover.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/icons.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/img.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/loading.gif" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/mastercard.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/paypal2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/picture-2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/picture.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/picture2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/prod1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/prod2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/prod3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/prod4.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/prod5.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/sprite-skin-flat.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/sprite-skin-modern.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/sprite-skin-nice.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/sprite-skin-simple.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/user.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/images/visa.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/.bower.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/LICENSE.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/changelog.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/calendar.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/chartjs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/chartjs2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/contacts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/animate.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/calendar/fullcalendar.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/calendar/fullcalendar.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/calendar/fullcalendar.print.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/colorpicker/bootstrap-colorpicker.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/css/demo_page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/css/demo_table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/css/demo_table_jui.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/css/jquery.dataTables.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/css/jquery.dataTables_themeroller.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/datatables/tools/css/dataTables.tableTools.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/editor/external/google-code-prettify/prettify.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/editor/index.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/floatexamples.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/_all.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/aero.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/blue.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/flat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/green.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/grey.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/orange.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/pink.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/purple.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/red.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/icheck/flat/yellow.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/ion.rangeSlider.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/ion.rangeSlider.skinFlat.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/maps/jquery-jvectormap-2.0.3.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/normalize.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/nprogress.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/progressbar/bootstrap-progressbar-3.3.0.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/select/select2.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/css/switchery/switchery.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/e_commerce.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/echarts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/empty.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/css/font-awesome.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/css/font-awesome.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/fonts/fontawesome-webfont.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/animated.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/bordered-pulled.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/core.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/fixed-width.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/font-awesome.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/icons.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/larger.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/list.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/mixins.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/path.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/rotated-flipped.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/spinning.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/stacked.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/less/variables.less" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_animated.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_bordered-pulled.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_core.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_fixed-width.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_icons.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_larger.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_list.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_mixins.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_path.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_rotated-flipped.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_spinning.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_stacked.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/_variables.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/fonts/scss/font-awesome.scss" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/form.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/form_advanced.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/form_buttons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/form_upload.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/form_validation.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/form_wizards.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/general_elements.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/glyphicons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/icons.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/inbox.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/index2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/index3.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/invoice.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/autocomplete/countries.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/autocomplete/jquery.autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/calendar/fullcalendar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/chartjs/chart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/colorpicker/bootstrap-colorpicker.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/colorpicker/docs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/cropping/cropper.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/cropping/main.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/cropping/main2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/buttons.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/buttons.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/buttons.html5.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/buttons.print.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/dataTables.bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/dataTables.buttons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/dataTables.fixedHeader.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/dataTables.keyTable.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/dataTables.responsive.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/dataTables.scroller.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/fixedHeader.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/jquery.dataTables.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/json/scroller-demo.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/jszip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/pdfmake.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/responsive.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/responsive.bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/scroller.bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datatables/vfs_fonts.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/datepicker/daterangepicker.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/dropzone/dropzone.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/easypie/jquery.easypiechart.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/echart/echarts-all.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/echart/green.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/bootstrap-wysiwyg.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-apollo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-basic.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-clj.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-css.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-dart.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-erlang.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-go.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-hs.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-lisp.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-llvm.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-lua.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-matlab.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-ml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-mumps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-n.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-pascal.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-proto.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-r.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-rd.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-scala.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-sql.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-tcl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-tex.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-vb.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-vhdl.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-wiki.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-xq.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/lang-yaml.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/google-code-prettify/run_prettify.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/editor/external/jquery.hotkeys.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/curvedLines.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/date.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.orderBars.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.pie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.resize.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.spline.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.stack.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.time.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/flot/jquery.flot.tooltip.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/gauge/gauge.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/gauge/gauge_demo.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/icheck/icheck.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/input_mask/jquery.inputmask.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/ion_range/ion.rangeSlider.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/knob/jquery.knob.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/maps/gdp-data.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/maps/jquery-jvectormap-2.0.3.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/maps/jquery-jvectormap-us-aea-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/maps/jquery-jvectormap-world-mill-en.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/maps/us-unemployment.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/moment/moment.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/moris/example.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/moris/morris.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/moris/raphael-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/notify/pnotify.buttons.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/notify/pnotify.core.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/notify/pnotify.nonblock.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/nprogress.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/pace/pace.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/parsley/parsley.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/progressbar/bootstrap-progressbar.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/select/select2.full.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/sidebar/classie.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/sidebar/component.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/sidebar/modernizr.custom.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/sidebar/sidebarEffects.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/skycons/skycons.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/sparkline/jquery.sparkline.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/switchery/switchery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/tags/jquery.tagsinput.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/textarea/autosize.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/validator/validator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/js/wizard/jquery.smartWizard.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/less/custom.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/level2.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/login.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/map.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/media_gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/morisjs.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/other_charts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/page_404.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/page_500.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/plain_page.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/pricing_tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/profile.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/project_detail.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/projects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/sign_up.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/tables.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/tables_dynamic.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/typography.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/widgets.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vendor/assets/components/gentelella/production/xx.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.generators" afterPath="$PROJECT_DIR$/.idea/.generators" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/.rakeTasks" afterPath="$PROJECT_DIR$/.idea/.rakeTasks" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/ftw-backend.iml" afterPath="$PROJECT_DIR$/.idea/ftw-backend.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile.lock" afterPath="$PROJECT_DIR$/Gemfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/application.css" afterPath="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/stylesheets/circles.scss" afterPath="$PROJECT_DIR$/app/assets/stylesheets/circles.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/circles/_circle.json.jbuilder" afterPath="$PROJECT_DIR$/app/views/circles/_circle.json.jbuilder" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/circles/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/circles/_form.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/circles/index.html.erb" afterPath="$PROJECT_DIR$/app/views/circles/index.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/circles/show.html.erb" afterPath="$PROJECT_DIR$/app/views/circles/show.html.erb" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/routes.rb" afterPath="$PROJECT_DIR$/config/routes.rb" />
     </list>
     <ignored path="ftw-backend.iws" />
@@ -25,7 +340,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/ftw-backend@Development__ftw_backend.coverage" NAME="Development: ftw-backend Coverage Results" MODIFIED="1470291380886" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ftw-backend" />
+    <SUITE FILE_PATH="coverage/ftw-backend@Development__ftw_backend.coverage" NAME="Development: ftw-backend Coverage Results" MODIFIED="1470294976614" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="ftw-backend" />
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
@@ -36,31 +351,100 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="database.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/database.yml">
+      <file leaf-file-name="application.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+            <state relative-caret-position="75">
+              <caret line="17" column="29" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="29" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <file leaf-file-name="application.html.erb" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+            <state relative-caret-position="150">
+              <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+              <folding>
+                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="circles.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/circles.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attendants.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/attendants.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="application.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+              <folding>
+                <marker date="1470295038000" expanded="true" signature="0:492" ph="//..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.js.coffee" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="circles.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/circles.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="scaffolds.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -76,6 +460,12 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/Bowerfile" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
+        <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
       </list>
     </option>
   </component>
@@ -95,6 +485,22 @@
   <component name="ProjectFrameBounds">
     <option name="width" value="1280" />
     <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Action Cable</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -149,6 +555,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="public" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="config" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -168,6 +588,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="layouts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -221,6 +663,72 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="stylesheets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="javascripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ftw-backend" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="images" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -229,12 +737,19 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../gentelella_on_rails" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
     <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
+      <recent name="$PROJECT_DIR$/vendor/assets" />
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager" selected="Rails.Development: ftw-backend">
     <configuration default="true" type="CucumberRunConfigurationType" factoryName="Cucumber">
@@ -272,6 +787,37 @@
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="RSpecRunConfigurationType" factoryName="RSpec">
+      <predefined_log_file id="RUBY_RSPEC" enabled="true" />
+      <module name="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUBY_ARGS" VALUE="-e $stdout.sync=true;$stderr.sync=true;load($0=ARGV.shift)" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="WORK DIR" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="myPassParentEnvs" VALUE="true" />
+      <envs />
+      <EXTENSION ID="BundlerRunConfigurationExtension" bundleExecEnabled="false" />
+      <EXTENSION ID="JRubyRunConfigurationExtension" NailgunExecEnabled="false" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" track_test_folders="true" runner="rcov">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TESTS_FOLDER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_SCRIPT_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_RUNNER_PATH" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_FILE_MASK" VALUE="**/*_spec.rb" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_EXAMPLE_NAME" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPEC_ARGS" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_VERSION" VALUE="" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="USE_CUSTOM_SPEC_RUNNER" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="ZEUS" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="SPRING" VALUE="false" />
+      <RSPEC_RUN_CONFIG_SETTINGS_ID NAME="FULL_BACKTRACE" VALUE="false" />
       <method />
     </configuration>
     <configuration default="true" type="RailsRunConfigurationType" factoryName="Rails">
@@ -388,24 +934,24 @@
       <workItem from="1470285868384" duration="154000" />
       <workItem from="1470286586140" duration="23000" />
       <workItem from="1470286610266" duration="927000" />
-      <workItem from="1470288004152" duration="802000" />
+      <workItem from="1470288004152" duration="7442000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1906000" />
+    <option name="totallyTimeSpent" value="8546000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19466881" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.503231" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.4951535" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41403025" sideWeight="0.50646204" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41403025" sideWeight="0.49676898" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31636864" sideWeight="0.49353796" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287483" sideWeight="0.49676898" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -459,14 +1005,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/database.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -488,6 +1026,178 @@
         <state relative-caret-position="60">
           <caret line="4" column="64" selection-start-line="4" selection-start-column="64" selection-end-line="4" selection-end-column="64" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Bowerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.bowerrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/gentelella/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/assets/components/gentelella/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="439">
+          <caret line="53" column="28" selection-start-line="53" selection-start-column="28" selection-end-line="53" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.1/gems/web-console-2.3.0/lib/web_console/templates/console.js.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="43" selection-start-line="12" selection-start-column="43" selection-end-line="12" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.rvm/gems/ruby-2.2.1/gems/actionpack-4.2.5.2/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="67" selection-start-line="10" selection-start-column="67" selection-end-line="10" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css.less">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="21" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap_and_overrides.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/scaffolds.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/circles.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js.coffee">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/circles.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/attendants.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/logo.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding>
+            <marker date="1470295038000" expanded="true" signature="0:492" ph="//..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/bootstrap.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="29" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="55" column="54" selection-start-line="55" selection-start-column="54" selection-end-line="55" selection-end-column="54" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#div#1;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
