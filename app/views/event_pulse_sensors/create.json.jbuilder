@@ -1,0 +1,1 @@
+json.event_pulse_sensor @event_pulse_sensor

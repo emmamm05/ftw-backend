@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160806020400) do
+ActiveRecord::Schema.define(version: 20160806062549) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -38,14 +38,15 @@ ActiveRecord::Schema.define(version: 20160806020400) do
   end
 
   create_table "event_bluetooths", force: :cascade do |t|
-    t.string   "nearness"
+    t.string   "distance"
     t.datetime "wristband_timestamp"
     t.string   "wristband_uuid"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
+    t.string   "friend_wristband_id"
   end
 
-  create_table "event_localization", force: :cascade do |t|
+  create_table "event_localizations", force: :cascade do |t|
     t.float    "distance_point_a"
     t.float    "distance_point_b"
     t.float    "distance_point_c"
@@ -56,9 +57,9 @@ ActiveRecord::Schema.define(version: 20160806020400) do
   end
 
   create_table "event_pulse_sensors", force: :cascade do |t|
-    t.integer  "value"
-    t.string   "streaming_uuid"
-    t.datetime "streaming_timestamp"
+    t.integer  "hits"
+    t.string   "wristband_uuid"
+    t.datetime "wristband_timestamp"
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
   end

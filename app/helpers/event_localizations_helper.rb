@@ -1,0 +1,2 @@
+module EventLocalizationsHelper
+end

@@ -1,4 +1,4 @@
-class EventLocalizationController < ApplicationController
+class EventLocalizationsController < ApplicationController
 
   skip_before_action :verify_authenticity_token, only: [:create]
   before_filter :event_localization_params
@@ -18,7 +18,7 @@ class EventLocalizationController < ApplicationController
     end
 
     def event_localization_params
-      params.require(:event_localization).permit(:distance_point_a, :distance_point_b, :distance_point_c)
+      params.require(:event_localization).permit(:distance_point_a, :distance_point_b, :distance_point_c,:wristband_uuid,:wristband_timestamp)
     end
 
 end

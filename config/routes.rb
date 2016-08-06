@@ -3,9 +3,9 @@ Rails.application.routes.draw do
   resources :circles
   resources :attendants
   resources :dashboard
-  resources :event_pulse_sensor
-  resources :event_bluetooth
-  resources :event_localization
+  resources :event_pulse_sensors
+  resources :event_bluetooths
+  resources :event_localizations
 
   get  'about' => 'about#index'
 

@@ -1,2 +1,0 @@
-class EventPulseSensorController < ApplicationController
-end
