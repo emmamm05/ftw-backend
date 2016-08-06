@@ -17,7 +17,7 @@ $ ->
         rangemode: 'tozero'
       }
       yaxis: {
-        range: [0,100]
+        range: [0,5]
       }
     }
 

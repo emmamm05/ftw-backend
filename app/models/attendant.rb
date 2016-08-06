@@ -33,7 +33,7 @@ class Attendant < ActiveRecord::Base
 
     average_local_hearth_rate_hits = local_hearth_rate_hits.inject{ |sum, el| sum + el }.to_f / local_hearth_rate_hits.count
 
-    return average_local_hearth_rate_hits < (average_total_hearth_rate_hits * 0.7)
+    return average_local_hearth_rate_hits < (average_total_hearth_rate_hits * 0.62)
   end
 
 end
