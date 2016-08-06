@@ -24,4 +24,4 @@ $ ->
       ]
     }
 
-    Plotly.plot elem, [ data ], margin: t: 0
+    Plotly.plot elem, title:gon.sample_data, [ data ], margin: t: 0

@@ -36,10 +36,11 @@ group :development do
   gem 'spring'
 end
 
-
 gem 'pg'
 gem 'devise'
 gem 'jquery-rails'
+
+gem 'gon'
 
 gem "font-awesome-rails"
 

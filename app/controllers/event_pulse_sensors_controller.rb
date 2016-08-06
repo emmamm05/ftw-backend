@@ -6,6 +6,8 @@ class EventPulseSensorsController < ApplicationController
 
   def create
     @event_pulse_sensor = EventPulseSensor.create(event_pulse_sensor_params)
+    @event_pulse_sensor.wristband =  Wristband.find_by_wristband_uuid event_pulse_sensor_params[:wristband_uuid]
+    @event_pulse_sensor.save!
     respond_to do |format|
       format.json
     end

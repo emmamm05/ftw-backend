@@ -6,6 +6,8 @@ class EventBluetoothsController < ApplicationController
 
   def create
     @event_bluetooth = EventBluetooth.create(event_bluetooth_params)
+    @event_bluetooth.wristband =  Wristband.find_by_wristband_uuid event_bluetooth_params[:wristband_uuid]
+    @event_bluetooth.save!
     respond_to do |format|
       format.json
     end
