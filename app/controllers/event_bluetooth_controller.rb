@@ -1,0 +1,2 @@
+class EventBluetoothController < ApplicationController
+end

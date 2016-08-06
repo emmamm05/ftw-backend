@@ -1,0 +1,2 @@
+class EventLocalizationController < ApplicationController
+end
