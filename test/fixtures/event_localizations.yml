@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  distance_point_a: 1.5
+  distance_point_b: 1.5
+  distance_point_c: 1.5
+  wristband_timestamp: 2016-08-05 20:02:46
+  wristband_uuid: MyString
+
+two:
+  distance_point_a: 1.5
+  distance_point_b: 1.5
+  distance_point_c: 1.5
+  wristband_timestamp: 2016-08-05 20:02:46
+  wristband_uuid: MyString

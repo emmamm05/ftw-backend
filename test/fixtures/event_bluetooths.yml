@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nearness: MyString
+  wristband_timestamp: 2016-08-05 20:02:32
+  wristband_uuid: MyString
+
+two:
+  nearness: MyString
+  wristband_timestamp: 2016-08-05 20:02:32
+  wristband_uuid: MyString
