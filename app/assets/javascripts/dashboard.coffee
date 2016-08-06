@@ -5,6 +5,8 @@
 
 $ ->
   $(document).on 'ready', (evt) ->
+
+    # Sleep Analysis Chart.
     elem = document.getElementById('sleep-analysis')
 
     data = {
@@ -26,3 +28,13 @@ $ ->
     console.log gon.sleep_people_counts
 
     Plotly.plot elem, [ data ], layout=layout, margin: t: 0
+
+    # Map Chart.
+    elem = document.getElementById('localization-map-chart')
+
+    data2 = {
+      x: [],
+      y: []
+    }
+
+    Plotly.plot elem, [data2]

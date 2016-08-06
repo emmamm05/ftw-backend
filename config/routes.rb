@@ -6,6 +6,7 @@ Rails.application.routes.draw do
   resources :event_pulse_sensors
   resources :event_bluetooths
   resources :event_localizations
+  resources :wristbands
 
   get  'about' => 'about#index'
 
