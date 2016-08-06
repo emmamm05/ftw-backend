@@ -25,6 +25,7 @@ class AttendantsController < ApplicationController
   # POST /attendants.json
   def create
     @attendant = Attendant.new(attendant_params)
+    @attendant.wristband = Wristband.find_by_wristband_uuid attendant_params[:wristband_id]
 
     respond_to do |format|
       if @attendant.save
