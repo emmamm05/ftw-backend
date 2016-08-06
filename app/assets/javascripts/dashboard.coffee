@@ -8,20 +8,20 @@ $ ->
     elem = document.getElementById('sleep-analysis')
 
     data = {
-      x: [
-        1
-        2
-        3
-        4
-        5
-      ]
-      y: [
-        1
-        2
-        4
-        8
-        16
-      ]
+      x: gon.sleep_people_timestamps
+      y: gon.sleep_people_counts
     }
 
-    Plotly.plot elem, title:gon.sample_data, [ data ], margin: t: 0
+    layout = {
+      xaxis: {
+        rangemode: 'tozero'
+      }
+      yaxis: {
+        range: [0,100]
+      }
+    }
+
+    console.log gon.sleep_people_timestamps
+    console.log gon.sleep_people_counts
+
+    Plotly.plot elem, [ data ], layout=layout, margin: t: 0
