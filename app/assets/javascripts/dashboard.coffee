@@ -17,7 +17,8 @@ $ ->
         rangemode: 'tozero'
       }
       yaxis: {
-        range: [0,5]
+        range: [0,5],
+        title: 'Sleep people'
       }
     }
 

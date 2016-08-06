@@ -3,19 +3,17 @@
 
     <div class="col-md-3">
       <div class="well sidebar-nav sidebar-dark fill">
-        <h3>Sidebar</h3>
         <ul class="nav nav-list fill">
-          <li class="nav-header">Sidebar</li>
           <div class="input-group input-group-lg sidebar-dark fill">
               <span class="input-group-addon sidebar-dark alignleft fill">
                 <div class="row sidebar-item">
-                  <input type="checkbox" aria-label="..."> All teams
+                  <input name="team" type="radio" aria-label="..."> Everyone
                 </div>
                 <div class="row sidebar-item">
-                  <div class="col-md-1"></div> <input type="checkbox" aria-label="..."> Team 2
+                  <div class="col-md-1"></div> <input name="team" type="radio" aria-label="..."> TEC
                 </div>
                 <div class="row sidebar-item">
-                  <div class="col-md-1"></div> <input type="checkbox" aria-label="..."> Team 3
+                  <div class="col-md-1"></div> <input name="team" type="radio" aria-label="..."> UCR
                 </div>
               </span>
           </div>
@@ -31,10 +29,10 @@
           <%= bootstrap_flash class: 'tiny-flash' %>
         </div>
 
-        <div class="row" style="margin: 50px" >
-
-          Minimap here!
-
+        <div class="row" style="margin-bottom: 50px;height: 100px;background-color: white;width: 72%" >
+          <div class="dashboard-custom">
+            Minimap here!
+          </div>
         </div>
 
         <div class="row" >
@@ -44,7 +42,7 @@
                 <div class="col-md-3 " >
                   <span style="font-size: 18px"> Sleep Analysis </span>
                   <br>
-                  <span> description </span>
+                  <span> Count of persons sleeping for <br> a given interval of time. </span>
                 </div>
                 <div class="col-md-3" >
                   <span style="font-weight: bold"> Lapso del sueño <br> más largo:</span>
