@@ -1,0 +1,1 @@
+json.event_localization @event_localization

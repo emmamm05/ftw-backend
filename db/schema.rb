@@ -45,7 +45,7 @@ ActiveRecord::Schema.define(version: 20160806020400) do
     t.datetime "updated_at",          null: false
   end
 
-  create_table "event_localizations", force: :cascade do |t|
+  create_table "event_localization", force: :cascade do |t|
     t.float    "distance_point_a"
     t.float    "distance_point_b"
     t.float    "distance_point_c"
