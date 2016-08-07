@@ -1,5 +1,5 @@
 class EventAccelerometersController < ApplicationController
-  
+
   skip_before_action :verify_authenticity_token, only: [:create]
   before_action :set_event_accelerometer, only: [:show, :edit, :update, :destroy]
 
