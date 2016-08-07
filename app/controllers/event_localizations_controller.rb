@@ -7,6 +7,7 @@ class EventLocalizationsController < ApplicationController
   def create
     @event_localization = EventLocalization.create(event_localization_params)
     @event_localization.wristband_uuid = Wristband.find_by_wristband_uuid(event_localization_params[:wristband_uuid])
+    @event_localization.calculate_indoor_coordinates
     @event_localization.save!
     respond_to do |format|
       format.json

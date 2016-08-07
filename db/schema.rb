@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160806071224) do
+ActiveRecord::Schema.define(version: 20160807112028) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -56,6 +56,11 @@ ActiveRecord::Schema.define(version: 20160806071224) do
     t.datetime "created_at",          null: false
     t.datetime "updated_at",          null: false
     t.integer  "wristband_id"
+    t.float    "real_distance_a"
+    t.float    "real_distance_b"
+    t.float    "real_distance_c"
+    t.float    "coord_x"
+    t.float    "coord_y"
   end
 
   create_table "event_pulse_sensors", force: :cascade do |t|

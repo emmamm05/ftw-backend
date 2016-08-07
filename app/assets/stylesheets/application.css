@@ -39,7 +39,6 @@
     -ms-transform: translate(0%, -40%);
     transform: translate(0%, -40%);
     width: 80%;
-
 }
 
 .center-block-custom{
@@ -90,7 +89,7 @@ html,body { height:100%; }
     border-width: 0px;
     max-width: 228px;
     border-radius: 0px;
-    height: 1000px;
+    height: 1500px;
     vertical-align: top;
 }
 
