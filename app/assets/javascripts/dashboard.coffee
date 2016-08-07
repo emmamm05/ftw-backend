@@ -112,5 +112,3 @@ $(document).ready ->
     to: 500,
     grid: true
   });
-
-
