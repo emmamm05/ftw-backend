@@ -108,13 +108,13 @@ $ ->
 
     Plotly.plot elem, [localizations,reference_nodes], layout=layout
 
-
-$(document).ready ->
-  $('#slider-timeline-days').ionRangeSlider({
-    type: "double",
-    min: 0,
-    max: 100,
-    from: 200,
-    to: 500,
-    grid: true
-  });
+#
+#$(document).ready ->
+#  $('#slider-timeline-days').ionRangeSlider({
+#    type: "double",
+#    min: 0,
+#    max: 100,
+#    from: 200,
+#    to: 500,
+#    grid: true
+#  });
