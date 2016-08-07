@@ -28,6 +28,13 @@ class DashboardController < ApplicationController
 
     @circles = Circle.all
 
+    # Localization
+
+    gon.localizations_y = EventLocalization.all.to_a.map{ |event| event[:coord_y] }
+    gon.localizations_x = EventLocalization.all.to_a.map{ |event| event[:coord_x] }
+    gon.reference_localizations_y = EventLocalization.reference_nodes.map{ |node| node[:y] }
+    gon.reference_localizations_x = EventLocalization.reference_nodes.map{ |node| node[:x] }
+
     respond_to do |format|
       format.html { render layout: 'dashboard_layout' }
     end

@@ -2,20 +2,25 @@ class EventLocalization < ActiveRecord::Base
 
   belongs_to :wristband
 
-  @reference_nodes = [ {x:100,y:0}, {x:50,y:50}, {x:100,y:100} ]
-
   def calculate_indoor_coordinates
 
-    real_distance_a = 10 ** self.distance_point_a
-    real_distance_b = 10 ** self.distance_point_b
-    real_distance_c = 10 ** self.distance_point_c
+    # FIXME: calibration
+    self.real_distance_a = self.distance_point_a #10 ** self.distance_point_a
+    self.real_distance_b = self.distance_point_b #10 ** self.distance_point_b
+    self.real_distance_c = self.distance_point_c #10 ** self.distance_point_c
 
-    get_coords_in_grid_with_angles(@reference_nodes[0],
-                                   @reference_nodes[1],
-                                   @reference_nodes[2],
+    point = get_coords_in_grid_with_angles(EventLocalization.reference_nodes[0],
+                                   EventLocalization.reference_nodes[1],
+                                   EventLocalization.reference_nodes[2],
                                    real_distance_a,
                                    real_distance_b,
                                    real_distance_c)
+    self.coord_x = point[:x]
+    self.coord_y = point[:y]
+  end
+
+  def self.reference_nodes
+    return [ {x:55,y:10}, {x:10,y:110}, {x:110,y:110} ]
   end
 
   private

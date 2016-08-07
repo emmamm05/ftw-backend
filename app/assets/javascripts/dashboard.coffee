@@ -35,13 +35,26 @@ $ ->
     # Map Chart.
     elem = document.getElementById('localization-map-chart')
 
-    data2 = {
-      x: [50,80],
-      y: [50,73],
+    localizations = {
+      x: gon.localizations_x,
+      y: gon.localizations_y,
       mode: 'markers',
       type: 'scatter',
+      name: 'Personas',
       marker:{
-        size:15
+        size:15,
+        color: ['rgb(93, 164, 214)']
+      }
+    }
+
+    reference_nodes = {
+      x: gon.reference_localizations_x,
+      y: gon.reference_localizations_y,
+      mode: 'markers',
+      type: 'scatter',
+      name: 'Referencias'
+      marker:{
+        size: 15,
       }
     }
 
@@ -60,7 +73,7 @@ $ ->
         autotick: true,
         ticks: '',
         showticklabels: false,
-        range: [0,100]
+        range: [0,120]
       },
       yaxis:{
         showgrid: false,
@@ -69,16 +82,16 @@ $ ->
         autotick: true,
         ticks: '',
         showticklabels: false,
-        range: [0,100]
+        range: [0,120]
       },
       images: [
         {
           xref: "x",
           yref: "y",
           x: 0,
-          y: 100,
-          sizex: 100,
-          sizey: 100,
+          y: 120,
+          sizex: 120,
+          sizey: 120,
           sizing: "stretch",
           opacity: 1,
           layer: "below",
@@ -86,8 +99,8 @@ $ ->
         }
       ]
     }
-    debugger
-    Plotly.plot elem, [data2], layout=layout
+
+    Plotly.plot elem, [localizations,reference_nodes], layout=layout
 
 
 $(document).ready ->
