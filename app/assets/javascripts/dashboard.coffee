@@ -46,6 +46,7 @@ $ ->
     }
 
     layout = {
+      width:800,
       margin:{
         l:0,
         r:0,
@@ -85,12 +86,21 @@ $ ->
         }
       ]
     }
-
+    debugger
     Plotly.plot elem, [data2], layout=layout
 
-#
-#$(document).ready ->
-#  slider = $('#slider-timeline-days').slider(
+
+$(document).ready ->
+  $('#slider-timeline-days').ionRangeSlider({
+    type: "double",
+    min: 0,
+    max: 100,
+    from: 200,
+    to: 500,
+    grid: true
+  });
+
+#slider = $('#slider-timeline-days').slider(
 #    range: true
 #    min: 200
 #    max: 500
@@ -103,7 +113,7 @@ $ ->
 #      return
 #  )
 #  return
-#
+
 #$(document).ready ->
 #  slider = $('#slider-timeline-hours').slider(
 #    range: true
@@ -118,6 +128,6 @@ $ ->
 #      return
 #  )
 #  return
-
+#
 
 
