@@ -43,7 +43,7 @@ gem 'jquery-ui-rails'
 
 gem 'gon'
 
-gem "font-awesome-rails"
+gem 'font-awesome-rails'
 
 gem 'bootstrap-sass', '~> 3.3.6'
 
