@@ -1,0 +1,1 @@
+json.array! @event_accelerometers, partial: 'event_accelerometers/event_accelerometer', as: :event_accelerometer

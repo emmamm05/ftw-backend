@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Listing Event Accelerometers</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>State</th>
+      <th>Wristband</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @event_accelerometers.each do |event_accelerometer| %>
+      <tr>
+        <td><%= event_accelerometer.state %></td>
+        <td><%= event_accelerometer.wristband %></td>
+        <td><%= link_to 'Show', event_accelerometer %></td>
+        <td><%= link_to 'Edit', edit_event_accelerometer_path(event_accelerometer) %></td>
+        <td><%= link_to 'Destroy', event_accelerometer, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Event accelerometer', new_event_accelerometer_path %>

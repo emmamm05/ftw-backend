@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20160807112028) do
+ActiveRecord::Schema.define(version: 20160807142143) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -36,6 +36,15 @@ ActiveRecord::Schema.define(version: 20160807112028) do
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
   end
+
+  create_table "event_accelerometers", force: :cascade do |t|
+    t.string   "state"
+    t.integer  "wristband_id"
+    t.datetime "created_at",   null: false
+    t.datetime "updated_at",   null: false
+  end
+
+  add_index "event_accelerometers", ["wristband_id"], name: "index_event_accelerometers_on_wristband_id", using: :btree
 
   create_table "event_bluetooths", force: :cascade do |t|
     t.string   "distance"
@@ -101,5 +110,6 @@ ActiveRecord::Schema.define(version: 20160807112028) do
 
   add_index "wristbands", ["attendant_id"], name: "index_wristbands_on_attendant_id", using: :btree
 
+  add_foreign_key "event_accelerometers", "wristbands"
   add_foreign_key "wristbands", "attendants"
 end

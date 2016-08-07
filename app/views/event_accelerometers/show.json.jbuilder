@@ -1,0 +1,1 @@
+json.partial! "event_accelerometers/event_accelerometer", event_accelerometer: @event_accelerometer

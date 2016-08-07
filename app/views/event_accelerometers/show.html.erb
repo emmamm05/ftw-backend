@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>State:</strong>
+  <%= @event_accelerometer.state %>
+</p>
+
+<p>
+  <strong>Wristband:</strong>
+  <%= @event_accelerometer.wristband %>
+</p>
+
+<%= link_to 'Edit', edit_event_accelerometer_path(@event_accelerometer) %> |
+<%= link_to 'Back', event_accelerometers_path %>

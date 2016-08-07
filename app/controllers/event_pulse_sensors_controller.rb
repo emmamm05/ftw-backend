@@ -5,12 +5,17 @@ class EventPulseSensorsController < ApplicationController
 
 
   def create
-    @event_pulse_sensor = EventPulseSensor.create(event_pulse_sensor_params)
-    @event_pulse_sensor.wristband =  Wristband.find_by_wristband_uuid event_pulse_sensor_params[:wristband_uuid]
-    @event_pulse_sensor.save!
+
     respond_to do |format|
-      format.json
+      format.json{ render json: { ok:true } }
     end
+
+    # @event_pulse_sensor = EventPulseSensor.create(event_pulse_sensor_params)
+    # @event_pulse_sensor.wristband =  Wristband.find_by_wristband_uuid event_pulse_sensor_params[:wristband_uuid]
+    # @event_pulse_sensor.save!
+    # respond_to do |format|
+    #   format.json
+    # end
   end
 
   private
@@ -20,7 +25,7 @@ class EventPulseSensorsController < ApplicationController
   end
 
   def event_pulse_sensor_params
-    params.require(:event_pulse_sensor).permit(:hits, :wristband_uuid, :wristband_timestamp )
+    params.require(:event_pulse_sensor).permit( :hits, :id )
   end
 
 end
