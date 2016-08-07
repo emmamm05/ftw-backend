@@ -56,3 +56,5 @@ gem 'coffee-rails', '~> 4.1.0'
 gem 'twitter-bootstrap-rails'
 
 gem 'devise-bootstrap-views'
+
+gem "bower-rails", "~> 0.10.0"

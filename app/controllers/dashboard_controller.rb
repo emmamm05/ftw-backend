@@ -9,8 +9,6 @@ class DashboardController < ApplicationController
     # x axis
     @sleep_people_counts = []
 
-    @thing = { data1:0, data2:100 }
-
     # sleep people graph
     @sleep_people_timestamps = []
     new_date_point = minimum_date

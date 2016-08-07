@@ -29,30 +29,8 @@
           <%= bootstrap_flash class: 'tiny-flash' %>
         </div>
 
-        <div class="row">
-          <div class="col-lg-9">
-          <div id="slider-timeline-hours"> </div>
-          </div>
-        </div>
-        <div class="row", style="height: 50px">
-          <% (0..24).to_a.each do |hour| %>
-              <div class="col-lg-9">
-                <%= "#{hour}  " %>
-              </div>
-          <% end %>
-        </div>
-
-        <div class="row", style="height: 50px">
-          <div class="col-lg-9">
-            <div id="slider-timeline-days"> </div>
-          </div>
-        </div>
-
         <div class="row" style="margin-bottom: 50px;background-color: white;width: 72%" >
-          <div class="dashboard-custom">
-             <img src="map.jpg" style="transform: translate(22%,0%)"/>
-          </div>
-            <div id="localization-map-chart" class="map-chart"> </div>
+            <div id="localization-map-chart" class="map-chart" style="transform: translate(20%)"> </div>
         </div>
 
         <div class="row" >
