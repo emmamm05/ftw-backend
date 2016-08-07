@@ -1,1 +1,2 @@
 asset "ion_range_slider", github: "IonDen/ion.rangeSlider"
+asset "plotly", github: "plotly/plotly"

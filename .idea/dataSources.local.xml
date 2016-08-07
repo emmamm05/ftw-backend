@@ -3,8 +3,8 @@
   <component name="dataSourceStorageLocal">
     <data-source name="PostgreSQL - postgres@localhost" uuid="eb48a9f0-a7bb-47c6-b4f1-45ab12bfe397">
       <secret-storage>master_key</secret-storage>
-      <introspection-scope>postgres:public,pg_catalog,</introspection-scope>
-      <resolve-scope>postgres:public,</resolve-scope>
+      <introspection-scope>postgres:pg_catalog,public</introspection-scope>
+      <resolve-scope>postgres:public</resolve-scope>
     </data-source>
   </component>
 </project>
