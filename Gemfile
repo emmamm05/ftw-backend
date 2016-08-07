@@ -39,6 +39,7 @@ end
 gem 'pg'
 gem 'devise'
 gem 'jquery-rails'
+gem 'jquery-ui-rails'
 
 gem 'gon'
 

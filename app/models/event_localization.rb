@@ -38,36 +38,50 @@ class EventLocalization < ActiveRecord::Base
     # iterations
     target_point = p_0
     target_point_cost = c_0
+
     for iteration in 0..1000 do
 
-      puts "point#{target_point} #{target_point_cost} #{iteration}"
+      dx = derivate_error_step_x(ref1, ref2, ref3, target_point, d1, d2, d3)
+      dy = derivate_error_step_y(ref1, ref2, ref3, target_point, d1, d2, d3)
 
-      new_target_point = { x:target_point[:x] + c_x, y:target_point[:y] + c_y }
+      diff = {
+          dx: s * dx/Math.sqrt(dx**2 + dy**2),
+          dy: s * dy/Math.sqrt(dx**2 + dy**2)
+      }
+
+      puts "point:#{target_point} cost:#{target_point_cost} #{iteration} #{diff}"
+
+      new_target_point = { x:target_point[:x] + diff[:dx], y:target_point[:y] + diff[:dy] }
       new_target_point_cost = cost_function(ref1, ref2, ref3, new_target_point, d1, d2, d3  )
 
       # if we reached a minimum, stop iterating
       if new_target_point_cost >= target_point_cost
+        puts "stopped at point:#{new_target_point} cost:#{new_target_point_cost} #{iteration} #{diff}"
         break
       end
+
       target_point = new_target_point
       target_point_cost = new_target_point_cost
+
+
+
     end
 
     return target_point
   end
 
-  # def derivate_error_step_x( ref1,ref2,ref3, point, d1,d2,d3 )
-  #   return 2*distance_points_squared( ref1, point, d1 )*2*(ref1[:x]-d1) + \
-  #     2*distance_points_squared( ref2, point, d2 )*2*(ref2[:x]-d2) + \
-  #     2*distance_points_squared( ref3, point, d3 )*2*(ref3[:x]-d3)
-  # end
-  #
-  #
-  #   def derivate_error_step_y( ref1,ref2,ref3, point, d1,d2,d3 )
-  #     return 2*distance_points_squared( ref1, point, d1 )*2*(ref1[:y]-d1) + \
-  #       2*distance_points_squared( ref2, point, d2 )*2*(ref2[:y]-d2) + \
-  #       2*distance_points_squared( ref3, point, d3 )*2*(ref3[:y]-d3)
-  #   end
+  def derivate_error_step_x( ref1,ref2,ref3, point, d1,d2,d3 )
+    return 2*distance_points_squared( ref1, point, d1 )*2*(ref1[:x]-d1) + \
+      2*distance_points_squared( ref2, point, d2 )*2*(ref2[:x]-d2) + \
+      2*distance_points_squared( ref3, point, d3 )*2*(ref3[:x]-d3)
+  end
+
+
+    def derivate_error_step_y( ref1,ref2,ref3, point, d1,d2,d3 )
+      return 2*distance_points_squared( ref1, point, d1 )*2*(ref1[:y]-d1) + \
+        2*distance_points_squared( ref2, point, d2 )*2*(ref2[:y]-d2) + \
+        2*distance_points_squared( ref3, point, d3 )*2*(ref3[:y]-d3)
+    end
 
     def cost_function(ref1, ref2, ref3, point, d1, d2, d3 )
       return distance_points_squared( ref1, point, d1 )**2 \
@@ -79,8 +93,8 @@ class EventLocalization < ActiveRecord::Base
       return ( ref[:x] - point[:x] )**2 +  ( ref[:y] - point[:y] )**2  - d ** 2
     end
 
-   # def distance_points( ref, point, d )
-   #   return ( ref[:x] - point[:x] ) +  ( ref[:y] - point[:y] ) - d
-   # end
+   def distance_points( ref, point, d )
+     return ( ref[:x] - point[:x] ) +  ( ref[:y] - point[:y] ) - d
+   end
 
 end

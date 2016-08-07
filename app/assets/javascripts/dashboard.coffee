@@ -38,3 +38,5 @@ $ ->
     }
 
     Plotly.plot elem, [data2]
+
+    $("#slider-timeline").ionRangeSlider()
