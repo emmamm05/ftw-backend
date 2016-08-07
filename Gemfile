@@ -57,4 +57,4 @@ gem 'twitter-bootstrap-rails'
 
 gem 'devise-bootstrap-views'
 
-gem "bower-rails"
+# gem "bower-rails"

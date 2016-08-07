@@ -12,8 +12,6 @@
  *
  *= require devise_bootstrap_views
  *= require jquery-ui
- *= require ion_range_slider
- *= require ion.rangeSlider.skinFlat
  *= require_tree .
  *= require_self
  */
