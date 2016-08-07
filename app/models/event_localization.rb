@@ -83,8 +83,6 @@ class EventLocalization < ActiveRecord::Base
         target_point = new_target_point
         target_point_cost = new_target_point_cost
 
-
-
       end
 
       return target_point
