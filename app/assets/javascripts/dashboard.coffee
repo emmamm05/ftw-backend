@@ -23,7 +23,7 @@ $ ->
         title: 'Sleep people'
       },
       margin:{
-        top: 10
+        top: 0
       }
     }
 

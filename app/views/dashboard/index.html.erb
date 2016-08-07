@@ -29,18 +29,28 @@
           <%= bootstrap_flash class: 'tiny-flash' %>
         </div>
 
-        <div class="row" style="margin-bottom: 50px;background-color: white;width: 72%" >
-            <div id="localization-map-chart" class="map-chart" style="transform: translate(20%)"> </div>
+        <div class="row">
+          <div class="col-md-9" style="background-color: white;padding: 20px;">
+            <span style="font-size: 18px"> Localización </span>
+            <br>
+            <span> Posiciones por zonas, equipos <br> e intervalos de tiempo durante el evento. </span>
+          </div>
+        </div>
+
+        <div class="row" style="margin-bottom: 50px;">
+            <div class="col-md-9" style="background-color: white;padding: 20px;">
+              <div id="localization-map-chart" class="map-chart" style="transform: translate(20%)"> </div>
+            </div>
         </div>
 
         <div class="row" >
-          <div class="dashboard-custom" style="padding: 40px;">
+          <div class="col-md-9" style="background-color: white;padding: 20px;">
             <div class="container">
               <div class="row">
                 <div class="col-md-3 " >
-                  <span style="font-size: 18px"> Sleep Analysis </span>
+                  <span style="font-size: 18px"> Analisis de Sueño </span>
                   <br>
-                  <span> Count of persons sleeping for <br> a given interval of time. </span>
+                  <span> Cantidad de personas duermiendo <br> a lo largo del evento. </span>
                 </div>
                 <div class="col-md-3" >
                   <span style="font-weight: bold"> Lapso del sueño <br> más largo:</span>
@@ -55,9 +65,14 @@
               </div>
             </div>
           </div>
-          <div id="sleep-analysis" class="dashboard-custom"></div>
-
         </div>
+
+        <div class="row" >
+          <div class="col-md-9" style="background-color: white;padding: 20px;">
+            <div id="sleep-analysis" class="dashboard-custom" style="transform: translate(20%)"></div>
+          </div>
+        </div>
+
 
       </div>
     </div>
