@@ -7,14 +7,13 @@
           <div class="input-group input-group-lg sidebar-dark fill">
               <span class="input-group-addon sidebar-dark alignleft fill">
                 <div class="row sidebar-item">
-                  <input name="team" type="radio" aria-label="..."> Everyone
+                  <input name="team" type="radio" aria-label="..." checked="checked"> Todos
                 </div>
-                <div class="row sidebar-item">
-                  <div class="col-md-1"></div> <input name="team" type="radio" aria-label="..."> TEC
-                </div>
-                <div class="row sidebar-item">
-                  <div class="col-md-1"></div> <input name="team" type="radio" aria-label="..."> UCR
-                </div>
+                <% @circles.each do |circle| %>
+                  <div class="row sidebar-item">
+                    <div class="col-md-1"></div> <input name="team" type="radio" aria-label="..."> <%= circle.name %>
+                  </div>
+                <% end %>
               </span>
           </div>
         </ul>

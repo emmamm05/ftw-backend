@@ -26,6 +26,8 @@ class DashboardController < ApplicationController
     gon.sleep_people_counts = @sleep_people_counts
     gon.sleep_people_timestamps = @sleep_people_timestamps
 
+    @circles = Circle.all
+
     respond_to do |format|
       format.html { render layout: 'dashboard_layout' }
     end
