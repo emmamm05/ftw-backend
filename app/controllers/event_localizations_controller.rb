@@ -11,7 +11,11 @@ class EventLocalizationsController < ApplicationController
     @_params[:wireless_status].split("\n").each do |line|
       args = line.split(',')
       if ['"FTW1"','"FTW2"','"FTW3"'].include?(args[1])
-        ssids[args[1]] = args[2]
+
+        # calculate linear distance from dbm's
+        dbm = args[2]
+        distance = decibels_intensity_to_meters(dbm)
+        ssids[args[1]] = distance
       end
     end
 
@@ -41,5 +45,10 @@ class EventLocalizationsController < ApplicationController
     def event_localization_params
       params.require(:event_localization).permit(:wireless_status, :id)
     end
+
+    def decibels_intensity_to_meters( dbm )
+      10 ** ( ( 27.55 - ( 20*Math.log10(2412) ) + dbm ) / 20 )
+    end
+end
 
 end
