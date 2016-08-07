@@ -58,6 +58,12 @@ $ ->
       }
     }
 
+    # maximun height and width
+    min_x = -4
+    max_x = 12
+    min_y = -4
+    max_y = 12
+
     layout = {
       width:800,
       margin:{
@@ -73,7 +79,7 @@ $ ->
         autotick: true,
         ticks: '',
         showticklabels: false,
-        range: [0,120]
+        range: [min_x,max_x]
       },
       yaxis:{
         showgrid: false,
@@ -82,16 +88,16 @@ $ ->
         autotick: true,
         ticks: '',
         showticklabels: false,
-        range: [0,120]
+        range:[min_y,max_y]
       },
       images: [
         {
           xref: "x",
           yref: "y",
-          x: 0,
-          y: 120,
-          sizex: 120,
-          sizey: 120,
+          x: min_x,
+          y: max_y,
+          sizex: max_x - min_x,
+          sizey: max_y - min_y,
           sizing: "stretch",
           opacity: 1,
           layer: "below",
